@@ -16,6 +16,3 @@ class TestCalculator:
 
     def test_adding_success(self):
         assert self.calculator.adding(self, 2, 2) == 4
-
-    def teardown(self):
-        print('Выполнение метода Teardown')
